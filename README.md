@@ -38,7 +38,7 @@
 ## Какую задачу решал код?
 
 <p style="text-align: center;">
-    <img src="graph/main.png" alt="common pipeline view"/>
+    <img src="img/flow_graph.png" alt="common pipeline view"/>
     <figcaption style="font-size: smaller; color: gray; text-align: center;">Общая схема этапов</figcaption>
 </p>
 
@@ -64,7 +64,7 @@
 Докупить террабайт оперативки не получилось, пришлось рефакторить.
 
 <p align="center">
-    <img src="img/clinet-server-old-new-2.png" alt="real app"/>
+    <img src="img/prod_stats.png" alt="real app"/>
     <figcaption style="font-size: smaller; color: gray; text-align: center;"> Потребление RAM и время работы. Слева client С, unpack. Справа server B-C. </figcaption>
 </p>
 
@@ -83,7 +83,7 @@
 * В 16:30 после рестарта запуск версии Bv2 + Cv3
 
 <p align="center">
-    <img src="img/ref3.png" alt="real app"/>
+    <img src="img/ref_summary.png" alt="real app"/>
     <figcaption style="font-size: smaller; color: gray; text-align: center;"> Время работы и потребление RAM\трафика. Для разных верчсий </figcaption>
 </p>
 
@@ -305,7 +305,7 @@ public IEnumerable<RawV1> GroupFilterV1(IEnumerable<RawV1> rawData)
 ```
 
 <p align="center">
-    <img src="meme/cat.jpg" alt="real app"/>
+    <img src="img/cat.jpg" alt="real app"/>
     <figcaption style="font-size: smaller; color: gray; text-align: center;"> Нет слов, одни эмоции </figcaption>
 </p>
 
